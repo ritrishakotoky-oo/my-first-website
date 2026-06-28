@@ -1,0 +1,54 @@
+<!DOCTYPE html>  <html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>Bubu's First Website</title>  <style>  
+body{  
+    margin:0;  
+    font-family:Arial,sans-serif;  
+    background:#f4f4f4;  
+}  
+  
+header{  
+    background:#6C63FF;  
+    color:white;  
+    text-align:center;  
+    padding:30px;  
+}  
+  
+.card{  
+    width:320px;  
+    background:white;  
+    margin:40px auto;  
+    padding:20px;  
+    border-radius:15px;  
+    box-shadow:0 0 10px rgba(0,0,0,0.2);  
+    text-align:center;  
+}  
+  
+button{  
+    background:#6C63FF;  
+    color:white;  
+    border:none;  
+    padding:10px 20px;  
+    border-radius:8px;  
+    cursor:pointer;  
+}  
+  
+button:hover{  
+    background:#4b43d1;  
+}  
+</style>  </head>  <body>  <header>  
+<h1>Welcome to my Website 💜</h1>  
+<p>My very first website</p>  
+</header>  <div class="card">  
+<h2>Hello!</h2>  
+<p>I am learning Web Development.</p>  <button onclick="hello()">Click Me</button>
+
+<p id="msg"></p>  
+</div>  <script>  
+function hello(){  
+document.getElementById("msg").innerHTML="🎉 Congratulations! Your JavaScript is working.";  
+}  
+</script>  </body>  
+</html>
